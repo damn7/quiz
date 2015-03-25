@@ -1,0 +1,220 @@
+/*#00A388*/
+body{
+	background:#F7E967;
+}
+h5{
+	display: none;
+}
+a{
+	display: block;
+}
+.header{
+	position: absolute;
+	background:#E74C3C;
+	width: 100%;
+	height: 50px;
+	top: 0px;
+	left: 0px;
+}
+.brand{
+	position: absolute;
+	width:10%;
+	height:50px;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 10px;
+	left:0px;
+	top:0px;
+	font-family: 'Open Sans', sans-serif;
+	color: #eee;
+	font-weight: 100;
+	display: inline-block;
+}
+.name{
+	position: fixed;
+	width:40%;
+	height:50px;
+	vertical-align: middle;
+	line-height: 10px;
+	left:150px;
+	top:0px;
+	font-family: 'Open Sans', sans-serif;
+	color: #eee;
+	font-weight: 100;
+	display: inline-block;
+}
+.score{
+	position: fixed;
+	width:40%;
+	height:50px;
+	vertical-align: middle;
+	line-height: 10px;
+	left:600px;
+	top:0px;
+	font-family: 'Open Sans', sans-serif;
+	color: #eee;
+	font-weight: 100;
+	display: inline-block;
+}
+.logout{
+	position: fixed;
+	width:40%;
+	height:50px;
+	vertical-align: middle;
+	line-height: 10px;
+	left:1200px;
+	top:0px;
+	font-family: 'Open Sans', sans-serif;
+	color: #eee;
+	font-weight: 100;
+	display: inline-block;
+}
+/*.round1{
+	width:285px;
+	height:285px;
+	border-radius:50%;
+	font-size:20px;
+	color:#fff;
+	text-align:center;
+	background:#eee;
+}
+
+#leader{
+	position:absolute;
+	top:185px;
+	left:540px;
+	background:#00A388;
+	background-image:url('trophy.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+*/
+.round{
+	font-family:'Open Sans', sans-serif;
+	position: relative;
+	width:133px;
+	height:133px;
+	border-radius:50%;
+	line-height: 70px;
+	font-size:25px;
+	font-weight: 500;
+	color:#fff;
+	vertical-align: middle;
+	text-align:center;
+	background:#eee;
+}
+
+.round2{
+	width:133px;
+	height:133px;
+	border-radius:50%;
+	font-size:20px;
+	color:#eee;
+	text-align:center;
+	background:#E74C3C;
+}
+
+
+
+
+#category_4{
+	position: fixed;
+	top: -645px;/*65*/
+	left: 620px;/*600*/
+	background-image: url('../images/clapboard.png');
+	background-size: inherit;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#category_3{
+	position: fixed;
+	top: -585px;/*135*/
+	left: -220px;/*470*/
+	background-image: url('../images/computer.png');
+	background-size: inherit;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#category_1{
+	position: fixed;
+	top: 255px;/*265*//*-435*/
+	left: -290px;/*410*/
+	background-image: url('../images/art.png');
+	background-size: inherit;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#category_6{
+	position: fixed;
+	top: 1095px;/*395*/
+	left: -220px;/*475*/
+	background-image: url('../images/globe.png');
+	background-size: inherit;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#category_7{
+	position: fixed;
+	top: 1155px;/*465*/
+	left: 620px;/*600*/
+	background-image: url('../images/news.png');
+	background-size: inherit;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#category_2{
+	position: fixed;
+	top: -585px;/*135*/
+	left: 1455px;/*725*/
+	background-image: url('../images/pie-chart.png');
+	background-size: inherit;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+#category_5{
+	position: fixed;
+	top: 255px;/*265*/
+	left: 1520px;/*790*/
+	background-image: url('../images/bookshelf.png');
+	background-size: inherit;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#category_9{
+	position: fixed;
+	top: 1095px;/*395*/
+	left: 1455px;/*725*/
+	background-image: url('../images/scie.png');
+	background-size: inherit;
+	background-position: center;
+}
+#category_10{
+	position: fixed;
+	top: 1190px;/*500*/
+	left: 860px;/*820*/
+	background-image: url('../images/die.png');
+	background-size: inherit;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.round1{
+	width:290px;
+	height:290px;
+	border-radius:50%;
+	font-size:20px;
+	color:#fff;
+	text-align:center;
+	background:#eee;
+}
+#lead{
+	position:fixed;
+	top:180px;
+	left:540px;
+	background:#eee;
+	background-image: url('../images/trophs.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

@@ -1,0 +1,139 @@
+body{
+	background:#F7E967;
+}
+a{
+    text-decoration: none;
+}
+.container{
+	position: fixed;
+	vertical-align: middle;
+	border-radius: 20px;
+	width:50%;
+	height: 75%;
+	background:#eee;
+	top:15%;
+	left:25%;
+
+}
+.start{
+	padding: 3% 3%;
+	height: 100%;
+	display: none;
+}
+
+.display{
+	top:25%;
+	left:25%;
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	font-weight: 200;
+	vertical-align: middle;
+	text-align: center;
+}
+/*.pad{
+	padding: 3% 3%;
+}*/
+.questions{
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	font-weight: 400;
+	vertical-align: middle;
+	text-align: center;
+	height:22%;
+}
+.options{
+	padding-top: 2%;
+	font-family: 'Open Sans', sans-serif;
+	color: #222;
+	font-weight: 200;
+	font-size: 20px;
+}
+.option{
+	padding:1% 1%;
+	
+}
+.b{
+	position: absolute;
+	left:82%;
+	top:85%;
+	background:#96CA2D;
+	width:15%;
+	height: 10%;
+	border-radius: 10%;
+	color: #eee;
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 50px;
+	display: none;
+
+}
+
+.startbn{
+	position: relative;
+	background:#96CA2D;
+	top:80%;
+	left:43%;
+	width:15%;
+	height: 10%;
+	border-radius: 10%;
+	color: #eee;
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 50px;
+}
+.radio{
+	background-color: #eee;
+	border-radius: 5px;
+	display: block;
+	height: 40px;
+	vertical-align: middle;
+	line-height: -10px;
+	
+
+}
+.radios{
+	padding-top: 5%;
+	font-family: 'Open Sans', sans-serif;
+	color: #222;
+	font-weight: 350;
+	font-size: 20px;
+	vertical-align: middle;
+
+
+}
+.radios input[type=radio]{
+	display: none;
+
+}
+.radios input[type=radio]:checked+.radio{
+	background-color: #4BB5C1;
+}
+
+.judge{
+	position: absolute;
+	left:45%;
+	top:2%;
+	width:13%;
+	height: 11%;
+	border-radius: 15%;
+	color: #eee;
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 70px;
+	display: none;
+}
+#right{
+	background:#588F27;
+}
+#wrong{
+	background:#E74C3C;
+}
